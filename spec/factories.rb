@@ -3,6 +3,7 @@ FactoryGirl.define do
     song nil
     playlist nil
   end
+  
   factory :playlist do
     name "MyString"
   end

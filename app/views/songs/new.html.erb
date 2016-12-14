@@ -2,10 +2,5 @@
 <br/>
 <h3>Add a New Song for <%= @artist.name %></h3>
 <br/>
-<%= form_for [@artist, @song] do |f| %>
-  <%= f.label :title %>
-  <%= f.text_field :title %>
-
-  <%= f.submit %>
-
-<% end %>
+<%= render partial: "form" %>
+ 
