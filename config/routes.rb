@@ -4,5 +4,5 @@ Rails.application.routes.draw do
     resources :songs, only: [:new, :create]
   end 
 
-  resources :songs, only: [:show]
+  resources :songs, only: [:index, :show, :edit, :update, :destroy]
 end
